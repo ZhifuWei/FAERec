@@ -1,0 +1,195 @@
+data_dir                       :                            ../data/
+output_dir                     :                             output/
+data_name                      :                                Food
+do_eval                        :                                   0
+model_idx                      :                                   1
+gpu_id                         :                                   0
+no_cuda                        :                                   0
+model_name                     :                              SASRec
+hidden_size                    :                                 128
+num_hidden_layers              :                                   2
+num_attention_heads            :                                   2
+hidden_act                     :                                gelu
+attention_probs_dropout_prob   :                                 0.4
+hidden_dropout_prob            :                                 0.4
+initializer_range              :                                0.02
+max_seq_length                 :                                  50
+weight_decay                   :                                 0.0
+lr                             :                               0.001
+batch_size                     :                                 256
+epochs                         :                                 500
+patience                       :                                  10
+log_freq                       :                                   1
+seed                           :                                2024
+full_sort                      :                                   1
+head_ratio                     :                                 0.2
+change                         :                                  20
+power_tou                      :                                   1
+item_tou                       :                                0.05
+cl_weight                      :                                 0.2
+gate_type                      :                           dimension
+w_min                          :                                 0.7
+w_max                          :                                   1
+warmup_epochs                  :                                   0
+period                         :                                  20
+star_test                      :                                  60
+cuda_condition                 :                                   1
+data_file                      :                    ../data/Food.txt
+user_size                      :                               32126
+item_size                      :                               39266
+log_file                       :            output/SASRec-Food-1.txt
+Namespace(attention_probs_dropout_prob=0.4, batch_size=256, change=20, cl_weight=0.2, cuda_condition=True, data_dir='../data/', data_file='../data/Food.txt', data_name='Food', do_eval=False, epochs=500, full_sort=1, gate_type='dimension', gpu_id='0', head_ratio=0.2, hidden_act='gelu', hidden_dropout_prob=0.4, hidden_size=128, initializer_range=0.02, item_size=39266, item_tou=0.05, log_file='output/SASRec-Food-5.txt', log_freq=1, lr=0.001, max_seq_length=50, model_idx=5, model_name='SASRec', no_cuda=False, no_cum=0, no_fusion=0, num_attention_heads=2, num_hidden_layers=2, output_dir='output/', patience=10, period=20, power_tou=1, seed=2024, star_test=60, user_size=32126, w_max=1, w_min=0.7, warmup_epochs=0, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.1811'}
+{'epoch': 1, 'rec_avg_loss': '0.9061'}
+{'epoch': 2, 'rec_avg_loss': '0.8049'}
+{'epoch': 3, 'rec_avg_loss': '0.7459'}
+{'epoch': 4, 'rec_avg_loss': '0.7121'}
+{'epoch': 5, 'rec_avg_loss': '0.6881'}
+{'epoch': 6, 'rec_avg_loss': '0.6762'}
+{'epoch': 7, 'rec_avg_loss': '0.6625'}
+{'epoch': 8, 'rec_avg_loss': '0.6506'}
+{'epoch': 9, 'rec_avg_loss': '0.6364'}
+{'epoch': 10, 'rec_avg_loss': '0.6179'}
+{'epoch': 11, 'rec_avg_loss': '0.5963'}
+{'epoch': 12, 'rec_avg_loss': '0.5741'}
+{'epoch': 13, 'rec_avg_loss': '0.5377'}
+{'epoch': 14, 'rec_avg_loss': '0.4999'}
+{'epoch': 15, 'rec_avg_loss': '0.4587'}
+{'epoch': 16, 'rec_avg_loss': '0.4133'}
+{'epoch': 17, 'rec_avg_loss': '0.3626'}
+{'epoch': 18, 'rec_avg_loss': '0.3219'}
+{'epoch': 19, 'rec_avg_loss': '0.2791'}
+{'epoch': 20, 'rec_avg_loss': '0.2547'}
+{'epoch': 21, 'rec_avg_loss': '0.2546'}
+{'epoch': 22, 'rec_avg_loss': '0.2794'}
+{'epoch': 23, 'rec_avg_loss': '0.3288'}
+{'epoch': 24, 'rec_avg_loss': '0.3801'}
+{'epoch': 25, 'rec_avg_loss': '0.4255'}
+{'epoch': 26, 'rec_avg_loss': '0.4602'}
+{'epoch': 27, 'rec_avg_loss': '0.4879'}
+{'epoch': 28, 'rec_avg_loss': '0.5017'}
+{'epoch': 29, 'rec_avg_loss': '0.5068'}
+{'epoch': 30, 'rec_avg_loss': '0.5008'}
+{'epoch': 31, 'rec_avg_loss': '0.4955'}
+{'epoch': 32, 'rec_avg_loss': '0.4755'}
+{'epoch': 33, 'rec_avg_loss': '0.4516'}
+{'epoch': 34, 'rec_avg_loss': '0.4176'}
+{'epoch': 35, 'rec_avg_loss': '0.3785'}
+{'epoch': 36, 'rec_avg_loss': '0.3398'}
+{'epoch': 37, 'rec_avg_loss': '0.2993'}
+{'epoch': 38, 'rec_avg_loss': '0.2609'}
+{'epoch': 39, 'rec_avg_loss': '0.2326'}
+{'epoch': 40, 'rec_avg_loss': '0.2097'}
+{'epoch': 41, 'rec_avg_loss': '0.2166'}
+{'epoch': 42, 'rec_avg_loss': '0.2373'}
+{'epoch': 43, 'rec_avg_loss': '0.2794'}
+{'epoch': 44, 'rec_avg_loss': '0.3291'}
+{'epoch': 45, 'rec_avg_loss': '0.3761'}
+{'epoch': 46, 'rec_avg_loss': '0.4168'}
+{'epoch': 47, 'rec_avg_loss': '0.4417'}
+{'epoch': 48, 'rec_avg_loss': '0.4616'}
+{'epoch': 49, 'rec_avg_loss': '0.4685'}
+{'epoch': 50, 'rec_avg_loss': '0.4680'}
+{'epoch': 51, 'rec_avg_loss': '0.4553'}
+{'epoch': 52, 'rec_avg_loss': '0.4381'}
+{'epoch': 53, 'rec_avg_loss': '0.4135'}
+{'epoch': 54, 'rec_avg_loss': '0.3827'}
+{'epoch': 55, 'rec_avg_loss': '0.3525'}
+{'epoch': 56, 'rec_avg_loss': '0.3140'}
+{'epoch': 57, 'rec_avg_loss': '0.2706'}
+{'epoch': 58, 'rec_avg_loss': '0.2404'}
+{'epoch': 59, 'rec_avg_loss': '0.2103'}
+{'epoch': 60, 'rec_avg_loss': '0.1978'}
+{'epoch': 61, 'rec_avg_loss': '0.2012'}
+{'Epoch': 61, 'Overall_HIT@5': '0.0581', 'Overall_NDCG@5': '0.0393', 'Head_Item_HIT@5': '0.0618', 'Head_Item_NDCG@5': '0.0418', 'Tail_Item_HIT@5': '0.0514', 'Tail_Item_NDCG@5': '0.0348'}
+{'Epoch': 61, 'Overall_HIT@10': '0.0820', 'Overall_NDCG@10': '0.0470', 'Head_Item_HIT@10': '0.0876', 'Head_Item_NDCG@10': '0.0502', 'Tail_Item_HIT@10': '0.0717', 'Tail_Item_NDCG@10': '0.0414'}
+{'Epoch': 61, 'Overall_HIT@20': '0.1113', 'Overall_NDCG@20': '0.0544', 'Head_Item_HIT@20': '0.1205', 'Head_Item_NDCG@20': '0.0584', 'Tail_Item_HIT@20': '0.0945', 'Tail_Item_NDCG@20': '0.0471'}
+{'epoch': 62, 'rec_avg_loss': '0.2229'}
+{'Epoch': 62, 'Overall_HIT@5': '0.0580', 'Overall_NDCG@5': '0.0394', 'Head_Item_HIT@5': '0.0622', 'Head_Item_NDCG@5': '0.0422', 'Tail_Item_HIT@5': '0.0503', 'Tail_Item_NDCG@5': '0.0344'}
+{'Epoch': 62, 'Overall_HIT@10': '0.0822', 'Overall_NDCG@10': '0.0472', 'Head_Item_HIT@10': '0.0878', 'Head_Item_NDCG@10': '0.0505', 'Tail_Item_HIT@10': '0.0720', 'Tail_Item_NDCG@10': '0.0414'}
+{'Epoch': 62, 'Overall_HIT@20': '0.1124', 'Overall_NDCG@20': '0.0548', 'Head_Item_HIT@20': '0.1226', 'Head_Item_NDCG@20': '0.0592', 'Tail_Item_HIT@20': '0.0941', 'Tail_Item_NDCG@20': '0.0469'}
+{'epoch': 63, 'rec_avg_loss': '0.2556'}
+{'Epoch': 63, 'Overall_HIT@5': '0.0584', 'Overall_NDCG@5': '0.0396', 'Head_Item_HIT@5': '0.0618', 'Head_Item_NDCG@5': '0.0421', 'Tail_Item_HIT@5': '0.0522', 'Tail_Item_NDCG@5': '0.0351'}
+{'Epoch': 63, 'Overall_HIT@10': '0.0828', 'Overall_NDCG@10': '0.0474', 'Head_Item_HIT@10': '0.0890', 'Head_Item_NDCG@10': '0.0508', 'Tail_Item_HIT@10': '0.0714', 'Tail_Item_NDCG@10': '0.0412'}
+{'Epoch': 63, 'Overall_HIT@20': '0.1127', 'Overall_NDCG@20': '0.0549', 'Head_Item_HIT@20': '0.1229', 'Head_Item_NDCG@20': '0.0593', 'Tail_Item_HIT@20': '0.0943', 'Tail_Item_NDCG@20': '0.0470'}
+{'epoch': 64, 'rec_avg_loss': '0.3017'}
+{'Epoch': 64, 'Overall_HIT@5': '0.0584', 'Overall_NDCG@5': '0.0395', 'Head_Item_HIT@5': '0.0623', 'Head_Item_NDCG@5': '0.0423', 'Tail_Item_HIT@5': '0.0514', 'Tail_Item_NDCG@5': '0.0344'}
+{'Epoch': 64, 'Overall_HIT@10': '0.0830', 'Overall_NDCG@10': '0.0474', 'Head_Item_HIT@10': '0.0893', 'Head_Item_NDCG@10': '0.0510', 'Tail_Item_HIT@10': '0.0717', 'Tail_Item_NDCG@10': '0.0410'}
+{'Epoch': 64, 'Overall_HIT@20': '0.1124', 'Overall_NDCG@20': '0.0548', 'Head_Item_HIT@20': '0.1221', 'Head_Item_NDCG@20': '0.0593', 'Tail_Item_HIT@20': '0.0950', 'Tail_Item_NDCG@20': '0.0469'}
+{'epoch': 65, 'rec_avg_loss': '0.3507'}
+{'Epoch': 65, 'Overall_HIT@5': '0.0583', 'Overall_NDCG@5': '0.0393', 'Head_Item_HIT@5': '0.0619', 'Head_Item_NDCG@5': '0.0417', 'Tail_Item_HIT@5': '0.0519', 'Tail_Item_NDCG@5': '0.0350'}
+{'Epoch': 65, 'Overall_HIT@10': '0.0820', 'Overall_NDCG@10': '0.0470', 'Head_Item_HIT@10': '0.0871', 'Head_Item_NDCG@10': '0.0499', 'Tail_Item_HIT@10': '0.0727', 'Tail_Item_NDCG@10': '0.0417'}
+{'Epoch': 65, 'Overall_HIT@20': '0.1107', 'Overall_NDCG@20': '0.0542', 'Head_Item_HIT@20': '0.1200', 'Head_Item_NDCG@20': '0.0582', 'Tail_Item_HIT@20': '0.0940', 'Tail_Item_NDCG@20': '0.0471'}
+{'epoch': 66, 'rec_avg_loss': '0.3908'}
+{'Epoch': 66, 'Overall_HIT@5': '0.0576', 'Overall_NDCG@5': '0.0391', 'Head_Item_HIT@5': '0.0600', 'Head_Item_NDCG@5': '0.0410', 'Tail_Item_HIT@5': '0.0533', 'Tail_Item_NDCG@5': '0.0356'}
+{'Epoch': 66, 'Overall_HIT@10': '0.0824', 'Overall_NDCG@10': '0.0471', 'Head_Item_HIT@10': '0.0873', 'Head_Item_NDCG@10': '0.0499', 'Tail_Item_HIT@10': '0.0735', 'Tail_Item_NDCG@10': '0.0421'}
+{'Epoch': 66, 'Overall_HIT@20': '0.1121', 'Overall_NDCG@20': '0.0546', 'Head_Item_HIT@20': '0.1213', 'Head_Item_NDCG@20': '0.0585', 'Tail_Item_HIT@20': '0.0955', 'Tail_Item_NDCG@20': '0.0477'}
+{'epoch': 67, 'rec_avg_loss': '0.4175'}
+{'Epoch': 67, 'Overall_HIT@5': '0.0572', 'Overall_NDCG@5': '0.0392', 'Head_Item_HIT@5': '0.0588', 'Head_Item_NDCG@5': '0.0403', 'Tail_Item_HIT@5': '0.0543', 'Tail_Item_NDCG@5': '0.0370'}
+{'Epoch': 67, 'Overall_HIT@10': '0.0816', 'Overall_NDCG@10': '0.0470', 'Head_Item_HIT@10': '0.0854', 'Head_Item_NDCG@10': '0.0489', 'Tail_Item_HIT@10': '0.0748', 'Tail_Item_NDCG@10': '0.0437'}
+{'Epoch': 67, 'Overall_HIT@20': '0.1103', 'Overall_NDCG@20': '0.0543', 'Head_Item_HIT@20': '0.1184', 'Head_Item_NDCG@20': '0.0572', 'Tail_Item_HIT@20': '0.0956', 'Tail_Item_NDCG@20': '0.0489'}
+{'epoch': 68, 'rec_avg_loss': '0.4348'}
+{'Epoch': 68, 'Overall_HIT@5': '0.0574', 'Overall_NDCG@5': '0.0394', 'Head_Item_HIT@5': '0.0592', 'Head_Item_NDCG@5': '0.0409', 'Tail_Item_HIT@5': '0.0541', 'Tail_Item_NDCG@5': '0.0365'}
+{'Epoch': 68, 'Overall_HIT@10': '0.0822', 'Overall_NDCG@10': '0.0474', 'Head_Item_HIT@10': '0.0863', 'Head_Item_NDCG@10': '0.0497', 'Tail_Item_HIT@10': '0.0748', 'Tail_Item_NDCG@10': '0.0432'}
+{'Epoch': 68, 'Overall_HIT@20': '0.1104', 'Overall_NDCG@20': '0.0545', 'Head_Item_HIT@20': '0.1182', 'Head_Item_NDCG@20': '0.0577', 'Tail_Item_HIT@20': '0.0962', 'Tail_Item_NDCG@20': '0.0486'}
+{'epoch': 69, 'rec_avg_loss': '0.4459'}
+{'Epoch': 69, 'Overall_HIT@5': '0.0577', 'Overall_NDCG@5': '0.0394', 'Head_Item_HIT@5': '0.0602', 'Head_Item_NDCG@5': '0.0411', 'Tail_Item_HIT@5': '0.0532', 'Tail_Item_NDCG@5': '0.0364'}
+{'Epoch': 69, 'Overall_HIT@10': '0.0826', 'Overall_NDCG@10': '0.0475', 'Head_Item_HIT@10': '0.0871', 'Head_Item_NDCG@10': '0.0498', 'Tail_Item_HIT@10': '0.0746', 'Tail_Item_NDCG@10': '0.0433'}
+{'Epoch': 69, 'Overall_HIT@20': '0.1101', 'Overall_NDCG@20': '0.0544', 'Head_Item_HIT@20': '0.1180', 'Head_Item_NDCG@20': '0.0575', 'Tail_Item_HIT@20': '0.0958', 'Tail_Item_NDCG@20': '0.0487'}
+{'epoch': 70, 'rec_avg_loss': '0.4464'}
+{'Epoch': 70, 'Overall_HIT@5': '0.0582', 'Overall_NDCG@5': '0.0397', 'Head_Item_HIT@5': '0.0601', 'Head_Item_NDCG@5': '0.0411', 'Tail_Item_HIT@5': '0.0548', 'Tail_Item_NDCG@5': '0.0373'}
+{'Epoch': 70, 'Overall_HIT@10': '0.0819', 'Overall_NDCG@10': '0.0474', 'Head_Item_HIT@10': '0.0860', 'Head_Item_NDCG@10': '0.0494', 'Tail_Item_HIT@10': '0.0746', 'Tail_Item_NDCG@10': '0.0437'}
+{'Epoch': 70, 'Overall_HIT@20': '0.1105', 'Overall_NDCG@20': '0.0546', 'Head_Item_HIT@20': '0.1177', 'Head_Item_NDCG@20': '0.0574', 'Tail_Item_HIT@20': '0.0974', 'Tail_Item_NDCG@20': '0.0494'}
+{'epoch': 71, 'rec_avg_loss': '0.4381'}
+{'Epoch': 71, 'Overall_HIT@5': '0.0581', 'Overall_NDCG@5': '0.0395', 'Head_Item_HIT@5': '0.0599', 'Head_Item_NDCG@5': '0.0408', 'Tail_Item_HIT@5': '0.0549', 'Tail_Item_NDCG@5': '0.0373'}
+{'Epoch': 71, 'Overall_HIT@10': '0.0813', 'Overall_NDCG@10': '0.0470', 'Head_Item_HIT@10': '0.0849', 'Head_Item_NDCG@10': '0.0488', 'Tail_Item_HIT@10': '0.0747', 'Tail_Item_NDCG@10': '0.0437'}
+{'Epoch': 71, 'Overall_HIT@20': '0.1087', 'Overall_NDCG@20': '0.0539', 'Head_Item_HIT@20': '0.1152', 'Head_Item_NDCG@20': '0.0565', 'Tail_Item_HIT@20': '0.0970', 'Tail_Item_NDCG@20': '0.0493'}
+{'epoch': 72, 'rec_avg_loss': '0.4222'}
+{'Epoch': 72, 'Overall_HIT@5': '0.0576', 'Overall_NDCG@5': '0.0393', 'Head_Item_HIT@5': '0.0599', 'Head_Item_NDCG@5': '0.0407', 'Tail_Item_HIT@5': '0.0535', 'Tail_Item_NDCG@5': '0.0367'}
+{'Epoch': 72, 'Overall_HIT@10': '0.0816', 'Overall_NDCG@10': '0.0470', 'Head_Item_HIT@10': '0.0856', 'Head_Item_NDCG@10': '0.0490', 'Tail_Item_HIT@10': '0.0743', 'Tail_Item_NDCG@10': '0.0435'}
+{'Epoch': 72, 'Overall_HIT@20': '0.1095', 'Overall_NDCG@20': '0.0541', 'Head_Item_HIT@20': '0.1164', 'Head_Item_NDCG@20': '0.0568', 'Tail_Item_HIT@20': '0.0971', 'Tail_Item_NDCG@20': '0.0492'}
+{'epoch': 73, 'rec_avg_loss': '0.3947'}
+{'Epoch': 73, 'Overall_HIT@5': '0.0572', 'Overall_NDCG@5': '0.0392', 'Head_Item_HIT@5': '0.0590', 'Head_Item_NDCG@5': '0.0403', 'Tail_Item_HIT@5': '0.0540', 'Tail_Item_NDCG@5': '0.0372'}
+{'Epoch': 73, 'Overall_HIT@10': '0.0820', 'Overall_NDCG@10': '0.0472', 'Head_Item_HIT@10': '0.0858', 'Head_Item_NDCG@10': '0.0490', 'Tail_Item_HIT@10': '0.0750', 'Tail_Item_NDCG@10': '0.0440'}
+{'Epoch': 73, 'Overall_HIT@20': '0.1103', 'Overall_NDCG@20': '0.0543', 'Head_Item_HIT@20': '0.1179', 'Head_Item_NDCG@20': '0.0570', 'Tail_Item_HIT@20': '0.0964', 'Tail_Item_NDCG@20': '0.0495'}
+{'Epoch': 0, 'Overall_HIT@5': '0.0550', 'Overall_NDCG@5': '0.0373', 'Head_Item_HIT@5': '0.0559', 'Head_Item_NDCG@5': '0.0381', 'Tail_Item_HIT@5': '0.0535', 'Tail_Item_NDCG@5': '0.0361'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0776', 'Overall_NDCG@10': '0.0446', 'Head_Item_HIT@10': '0.0811', 'Head_Item_NDCG@10': '0.0461', 'Tail_Item_HIT@10': '0.0718', 'Tail_Item_NDCG@10': '0.0421'}
+{'Epoch': 0, 'Overall_HIT@20': '0.1018', 'Overall_NDCG@20': '0.0507', 'Head_Item_HIT@20': '0.1083', 'Head_Item_NDCG@20': '0.0530', 'Tail_Item_HIT@20': '0.0911', 'Tail_Item_NDCG@20': '0.0469'}
+
+@10 :
+Epoch: 0
+  Item_1-4_HIT@10: 0.0716, Item_1-4_NDCG@10: 0.0429
+  Item_5-9_HIT@10: 0.0683, Item_5-9_NDCG@10: 0.0382
+  Item_10-19_HIT@10: 0.0713, Item_10-19_NDCG@10: 0.0406
+  Item_20-49_HIT@10: 0.0755, Item_20-49_NDCG@10: 0.0412
+  Item_50+_HIT@10: 0.0988, Item_50+_NDCG@10: 0.0574
+
+@20 :
+Epoch: 0
+  Item_1-4_HIT@20: 0.0907, Item_1-4_NDCG@20: 0.0477
+  Item_5-9_HIT@20: 0.0897, Item_5-9_NDCG@20: 0.0436
+  Item_10-19_HIT@20: 0.0919, Item_10-19_NDCG@20: 0.0459
+  Item_20-49_HIT@20: 0.0975, Item_20-49_NDCG@20: 0.0467
+  Item_50+_HIT@20: 0.1357, Item_50+_NDCG@20: 0.0667
+SASRec-Food-5
+{'Epoch': 0, 'Overall_HIT@5': '0.0550', 'Overall_NDCG@5': '0.0373', 'Head_Item_HIT@5': '0.0559', 'Head_Item_NDCG@5': '0.0381', 'Tail_Item_HIT@5': '0.0535', 'Tail_Item_NDCG@5': '0.0361'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0776', 'Overall_NDCG@10': '0.0446', 'Head_Item_HIT@10': '0.0811', 'Head_Item_NDCG@10': '0.0461', 'Tail_Item_HIT@10': '0.0718', 'Tail_Item_NDCG@10': '0.0421'}
+{'Epoch': 0, 'Overall_HIT@20': '0.1018', 'Overall_NDCG@20': '0.0507', 'Head_Item_HIT@20': '0.1083', 'Head_Item_NDCG@20': '0.0530', 'Tail_Item_HIT@20': '0.0911', 'Tail_Item_NDCG@20': '0.0469'}
+
+@10 :
+Epoch: 0
+  Item_1-4_HIT@10: 0.0716, Item_1-4_NDCG@10: 0.0429
+  Item_5-9_HIT@10: 0.0683, Item_5-9_NDCG@10: 0.0382
+  Item_10-19_HIT@10: 0.0713, Item_10-19_NDCG@10: 0.0406
+  Item_20-49_HIT@10: 0.0755, Item_20-49_NDCG@10: 0.0412
+  Item_50+_HIT@10: 0.0988, Item_50+_NDCG@10: 0.0574
+
+@20 :
+Epoch: 0
+  Item_1-4_HIT@20: 0.0907, Item_1-4_NDCG@20: 0.0477
+  Item_5-9_HIT@20: 0.0897, Item_5-9_NDCG@20: 0.0436
+  Item_10-19_HIT@20: 0.0919, Item_10-19_NDCG@20: 0.0459
+  Item_20-49_HIT@20: 0.0975, Item_20-49_NDCG@20: 0.0467
+  Item_50+_HIT@20: 0.1357, Item_50+_NDCG@20: 0.0667
+Total running time: 504.87 seconds
+Average training time for epochs 0 to 60: 5.13 seconds/epoch

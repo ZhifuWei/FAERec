@@ -1,0 +1,231 @@
+data_dir                       :                            ../data/
+output_dir                     :                             output/
+data_name                      :                                Food
+do_eval                        :                                   0
+model_idx                      :                                   1
+gpu_id                         :                                   0
+no_cuda                        :                                   0
+model_name                     :                              LRURec
+hidden_size                    :                                 128
+num_hidden_layers              :                                   2
+num_attention_heads            :                                   2
+hidden_act                     :                                gelu
+attention_probs_dropout_prob   :                                 0.4
+hidden_dropout_prob            :                                 0.4
+initializer_range              :                                0.02
+max_seq_length                 :                                  50
+weight_decay                   :                                 0.0
+lr                             :                               0.001
+batch_size                     :                                 256
+epochs                         :                                 500
+patience                       :                                  10
+log_freq                       :                                   1
+seed                           :                                2024
+star_test                      :                                 100
+full_sort                      :                                   1
+head_ratio                     :                                 0.2
+cuda_condition                 :                                   1
+data_file                      :                    ../data/Food.txt
+item_size                      :                               39266
+log_file                       :            output/LRURec-Food-1.txt
+Namespace(attention_probs_dropout_prob=0.4, batch_size=256, cuda_condition=True, data_dir='../data/', data_file='../data/Food.txt', data_name='Food', do_eval=False, epochs=500, full_sort=True, gpu_id='0', head_ratio=0.2, hidden_act='gelu', hidden_dropout_prob=0.4, hidden_size=128, initializer_range=0.02, item_size=39266, log_file='output/LRURec-Food-1.txt', log_freq=1, lr=0.001, max_seq_length=50, model_idx=1, model_name='LRURec', no_cuda=False, num_attention_heads=2, num_hidden_layers=2, output_dir='output/', patience=10, seed=2024, star_test=100, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.2361'}
+{'epoch': 1, 'rec_avg_loss': '0.9896'}
+{'epoch': 2, 'rec_avg_loss': '0.8516'}
+{'epoch': 3, 'rec_avg_loss': '0.7317'}
+{'epoch': 4, 'rec_avg_loss': '0.6258'}
+{'epoch': 5, 'rec_avg_loss': '0.5401'}
+{'epoch': 6, 'rec_avg_loss': '0.4679'}
+{'epoch': 7, 'rec_avg_loss': '0.4111'}
+{'epoch': 8, 'rec_avg_loss': '0.3645'}
+{'epoch': 9, 'rec_avg_loss': '0.3316'}
+{'epoch': 10, 'rec_avg_loss': '0.2993'}
+{'epoch': 11, 'rec_avg_loss': '0.2753'}
+{'epoch': 12, 'rec_avg_loss': '0.2541'}
+{'epoch': 13, 'rec_avg_loss': '0.2347'}
+{'epoch': 14, 'rec_avg_loss': '0.2224'}
+{'epoch': 15, 'rec_avg_loss': '0.2095'}
+{'epoch': 16, 'rec_avg_loss': '0.1970'}
+{'epoch': 17, 'rec_avg_loss': '0.1886'}
+{'epoch': 18, 'rec_avg_loss': '0.1789'}
+{'epoch': 19, 'rec_avg_loss': '0.1734'}
+{'epoch': 20, 'rec_avg_loss': '0.1666'}
+{'epoch': 21, 'rec_avg_loss': '0.1576'}
+{'epoch': 22, 'rec_avg_loss': '0.1543'}
+{'epoch': 23, 'rec_avg_loss': '0.1508'}
+{'epoch': 24, 'rec_avg_loss': '0.1463'}
+{'epoch': 25, 'rec_avg_loss': '0.1427'}
+{'epoch': 26, 'rec_avg_loss': '0.1410'}
+{'epoch': 27, 'rec_avg_loss': '0.1371'}
+{'epoch': 28, 'rec_avg_loss': '0.1332'}
+{'epoch': 29, 'rec_avg_loss': '0.1332'}
+{'epoch': 30, 'rec_avg_loss': '0.1267'}
+{'epoch': 31, 'rec_avg_loss': '0.1254'}
+{'epoch': 32, 'rec_avg_loss': '0.1247'}
+{'epoch': 33, 'rec_avg_loss': '0.1216'}
+{'epoch': 34, 'rec_avg_loss': '0.1199'}
+{'epoch': 35, 'rec_avg_loss': '0.1197'}
+{'epoch': 36, 'rec_avg_loss': '0.1169'}
+{'epoch': 37, 'rec_avg_loss': '0.1168'}
+{'epoch': 38, 'rec_avg_loss': '0.1171'}
+{'epoch': 39, 'rec_avg_loss': '0.1134'}
+{'epoch': 40, 'rec_avg_loss': '0.1134'}
+{'epoch': 41, 'rec_avg_loss': '0.1121'}
+{'epoch': 42, 'rec_avg_loss': '0.1100'}
+{'epoch': 43, 'rec_avg_loss': '0.1079'}
+{'epoch': 44, 'rec_avg_loss': '0.1090'}
+{'epoch': 45, 'rec_avg_loss': '0.1054'}
+{'epoch': 46, 'rec_avg_loss': '0.1063'}
+{'epoch': 47, 'rec_avg_loss': '0.1064'}
+{'epoch': 48, 'rec_avg_loss': '0.1060'}
+{'epoch': 49, 'rec_avg_loss': '0.1027'}
+{'epoch': 50, 'rec_avg_loss': '0.1024'}
+{'epoch': 51, 'rec_avg_loss': '0.1004'}
+{'epoch': 52, 'rec_avg_loss': '0.0988'}
+{'epoch': 53, 'rec_avg_loss': '0.0993'}
+{'epoch': 54, 'rec_avg_loss': '0.0992'}
+{'epoch': 55, 'rec_avg_loss': '0.0995'}
+{'epoch': 56, 'rec_avg_loss': '0.1004'}
+{'epoch': 57, 'rec_avg_loss': '0.0949'}
+{'epoch': 58, 'rec_avg_loss': '0.0968'}
+{'epoch': 59, 'rec_avg_loss': '0.0944'}
+{'epoch': 60, 'rec_avg_loss': '0.0958'}
+{'epoch': 61, 'rec_avg_loss': '0.0955'}
+{'epoch': 62, 'rec_avg_loss': '0.0942'}
+{'epoch': 63, 'rec_avg_loss': '0.0948'}
+{'epoch': 64, 'rec_avg_loss': '0.0938'}
+{'epoch': 65, 'rec_avg_loss': '0.0913'}
+{'epoch': 66, 'rec_avg_loss': '0.0927'}
+{'epoch': 67, 'rec_avg_loss': '0.0901'}
+{'epoch': 68, 'rec_avg_loss': '0.0900'}
+{'epoch': 69, 'rec_avg_loss': '0.0874'}
+{'epoch': 70, 'rec_avg_loss': '0.0878'}
+{'epoch': 71, 'rec_avg_loss': '0.0894'}
+{'epoch': 72, 'rec_avg_loss': '0.0881'}
+{'epoch': 73, 'rec_avg_loss': '0.0882'}
+{'epoch': 74, 'rec_avg_loss': '0.0880'}
+{'epoch': 75, 'rec_avg_loss': '0.0874'}
+{'epoch': 76, 'rec_avg_loss': '0.0869'}
+{'epoch': 77, 'rec_avg_loss': '0.0874'}
+{'epoch': 78, 'rec_avg_loss': '0.0858'}
+{'epoch': 79, 'rec_avg_loss': '0.0844'}
+{'epoch': 80, 'rec_avg_loss': '0.0829'}
+{'epoch': 81, 'rec_avg_loss': '0.0852'}
+{'epoch': 82, 'rec_avg_loss': '0.0837'}
+{'epoch': 83, 'rec_avg_loss': '0.0836'}
+{'epoch': 84, 'rec_avg_loss': '0.0805'}
+{'epoch': 85, 'rec_avg_loss': '0.0831'}
+{'epoch': 86, 'rec_avg_loss': '0.0820'}
+{'epoch': 87, 'rec_avg_loss': '0.0799'}
+{'epoch': 88, 'rec_avg_loss': '0.0809'}
+{'epoch': 89, 'rec_avg_loss': '0.0806'}
+{'epoch': 90, 'rec_avg_loss': '0.0806'}
+{'epoch': 91, 'rec_avg_loss': '0.0789'}
+{'epoch': 92, 'rec_avg_loss': '0.0794'}
+{'epoch': 93, 'rec_avg_loss': '0.0777'}
+{'epoch': 94, 'rec_avg_loss': '0.0780'}
+{'epoch': 95, 'rec_avg_loss': '0.0771'}
+{'epoch': 96, 'rec_avg_loss': '0.0779'}
+{'epoch': 97, 'rec_avg_loss': '0.0825'}
+{'epoch': 98, 'rec_avg_loss': '0.0748'}
+{'epoch': 99, 'rec_avg_loss': '0.0753'}
+{'epoch': 100, 'rec_avg_loss': '0.0750'}
+{'epoch': 101, 'rec_avg_loss': '0.0767'}
+{'Epoch': 101, 'Overall_HIT@5': '0.0273', 'Overall_NDCG@5': '0.0173', 'Head_Item_HIT@5': '0.0373', 'Head_Item_NDCG@5': '0.0235', 'Tail_Item_HIT@5': '0.0093', 'Tail_Item_NDCG@5': '0.0060'}
+{'Epoch': 101, 'Overall_HIT@10': '0.0428', 'Overall_NDCG@10': '0.0223', 'Head_Item_HIT@10': '0.0597', 'Head_Item_NDCG@10': '0.0307', 'Tail_Item_HIT@10': '0.0122', 'Tail_Item_NDCG@10': '0.0069'}
+{'Epoch': 101, 'Overall_HIT@20': '0.0669', 'Overall_NDCG@20': '0.0283', 'Head_Item_HIT@20': '0.0956', 'Head_Item_NDCG@20': '0.0397', 'Tail_Item_HIT@20': '0.0147', 'Tail_Item_NDCG@20': '0.0076'}
+{'epoch': 102, 'rec_avg_loss': '0.0763'}
+{'Epoch': 102, 'Overall_HIT@5': '0.0276', 'Overall_NDCG@5': '0.0171', 'Head_Item_HIT@5': '0.0378', 'Head_Item_NDCG@5': '0.0232', 'Tail_Item_HIT@5': '0.0092', 'Tail_Item_NDCG@5': '0.0061'}
+{'Epoch': 102, 'Overall_HIT@10': '0.0434', 'Overall_NDCG@10': '0.0222', 'Head_Item_HIT@10': '0.0606', 'Head_Item_NDCG@10': '0.0305', 'Tail_Item_HIT@10': '0.0122', 'Tail_Item_NDCG@10': '0.0071'}
+{'Epoch': 102, 'Overall_HIT@20': '0.0677', 'Overall_NDCG@20': '0.0283', 'Head_Item_HIT@20': '0.0966', 'Head_Item_NDCG@20': '0.0396', 'Tail_Item_HIT@20': '0.0152', 'Tail_Item_NDCG@20': '0.0078'}
+{'epoch': 103, 'rec_avg_loss': '0.0757'}
+{'Epoch': 103, 'Overall_HIT@5': '0.0274', 'Overall_NDCG@5': '0.0173', 'Head_Item_HIT@5': '0.0380', 'Head_Item_NDCG@5': '0.0239', 'Tail_Item_HIT@5': '0.0082', 'Tail_Item_NDCG@5': '0.0055'}
+{'Epoch': 103, 'Overall_HIT@10': '0.0430', 'Overall_NDCG@10': '0.0224', 'Head_Item_HIT@10': '0.0599', 'Head_Item_NDCG@10': '0.0309', 'Tail_Item_HIT@10': '0.0125', 'Tail_Item_NDCG@10': '0.0069'}
+{'Epoch': 103, 'Overall_HIT@20': '0.0669', 'Overall_NDCG@20': '0.0284', 'Head_Item_HIT@20': '0.0956', 'Head_Item_NDCG@20': '0.0399', 'Tail_Item_HIT@20': '0.0149', 'Tail_Item_NDCG@20': '0.0075'}
+{'epoch': 104, 'rec_avg_loss': '0.0737'}
+{'Epoch': 104, 'Overall_HIT@5': '0.0271', 'Overall_NDCG@5': '0.0174', 'Head_Item_HIT@5': '0.0377', 'Head_Item_NDCG@5': '0.0239', 'Tail_Item_HIT@5': '0.0080', 'Tail_Item_NDCG@5': '0.0056'}
+{'Epoch': 104, 'Overall_HIT@10': '0.0436', 'Overall_NDCG@10': '0.0227', 'Head_Item_HIT@10': '0.0612', 'Head_Item_NDCG@10': '0.0315', 'Tail_Item_HIT@10': '0.0118', 'Tail_Item_NDCG@10': '0.0068'}
+{'Epoch': 104, 'Overall_HIT@20': '0.0664', 'Overall_NDCG@20': '0.0285', 'Head_Item_HIT@20': '0.0949', 'Head_Item_NDCG@20': '0.0400', 'Tail_Item_HIT@20': '0.0148', 'Tail_Item_NDCG@20': '0.0076'}
+{'epoch': 105, 'rec_avg_loss': '0.0751'}
+{'Epoch': 105, 'Overall_HIT@5': '0.0269', 'Overall_NDCG@5': '0.0172', 'Head_Item_HIT@5': '0.0371', 'Head_Item_NDCG@5': '0.0235', 'Tail_Item_HIT@5': '0.0085', 'Tail_Item_NDCG@5': '0.0058'}
+{'Epoch': 105, 'Overall_HIT@10': '0.0435', 'Overall_NDCG@10': '0.0225', 'Head_Item_HIT@10': '0.0611', 'Head_Item_NDCG@10': '0.0312', 'Tail_Item_HIT@10': '0.0116', 'Tail_Item_NDCG@10': '0.0068'}
+{'Epoch': 105, 'Overall_HIT@20': '0.0670', 'Overall_NDCG@20': '0.0284', 'Head_Item_HIT@20': '0.0959', 'Head_Item_NDCG@20': '0.0399', 'Tail_Item_HIT@20': '0.0146', 'Tail_Item_NDCG@20': '0.0075'}
+{'epoch': 106, 'rec_avg_loss': '0.0776'}
+{'Epoch': 106, 'Overall_HIT@5': '0.0266', 'Overall_NDCG@5': '0.0170', 'Head_Item_HIT@5': '0.0363', 'Head_Item_NDCG@5': '0.0231', 'Tail_Item_HIT@5': '0.0089', 'Tail_Item_NDCG@5': '0.0060'}
+{'Epoch': 106, 'Overall_HIT@10': '0.0433', 'Overall_NDCG@10': '0.0224', 'Head_Item_HIT@10': '0.0608', 'Head_Item_NDCG@10': '0.0310', 'Tail_Item_HIT@10': '0.0116', 'Tail_Item_NDCG@10': '0.0069'}
+{'Epoch': 106, 'Overall_HIT@20': '0.0656', 'Overall_NDCG@20': '0.0280', 'Head_Item_HIT@20': '0.0936', 'Head_Item_NDCG@20': '0.0392', 'Tail_Item_HIT@20': '0.0150', 'Tail_Item_NDCG@20': '0.0078'}
+{'epoch': 107, 'rec_avg_loss': '0.0748'}
+{'Epoch': 107, 'Overall_HIT@5': '0.0268', 'Overall_NDCG@5': '0.0173', 'Head_Item_HIT@5': '0.0367', 'Head_Item_NDCG@5': '0.0236', 'Tail_Item_HIT@5': '0.0088', 'Tail_Item_NDCG@5': '0.0060'}
+{'Epoch': 107, 'Overall_HIT@10': '0.0428', 'Overall_NDCG@10': '0.0224', 'Head_Item_HIT@10': '0.0597', 'Head_Item_NDCG@10': '0.0309', 'Tail_Item_HIT@10': '0.0120', 'Tail_Item_NDCG@10': '0.0070'}
+{'Epoch': 107, 'Overall_HIT@20': '0.0654', 'Overall_NDCG@20': '0.0281', 'Head_Item_HIT@20': '0.0935', 'Head_Item_NDCG@20': '0.0394', 'Tail_Item_HIT@20': '0.0145', 'Tail_Item_NDCG@20': '0.0076'}
+{'epoch': 108, 'rec_avg_loss': '0.0748'}
+{'Epoch': 108, 'Overall_HIT@5': '0.0267', 'Overall_NDCG@5': '0.0171', 'Head_Item_HIT@5': '0.0365', 'Head_Item_NDCG@5': '0.0231', 'Tail_Item_HIT@5': '0.0090', 'Tail_Item_NDCG@5': '0.0061'}
+{'Epoch': 108, 'Overall_HIT@10': '0.0423', 'Overall_NDCG@10': '0.0221', 'Head_Item_HIT@10': '0.0590', 'Head_Item_NDCG@10': '0.0304', 'Tail_Item_HIT@10': '0.0121', 'Tail_Item_NDCG@10': '0.0071'}
+{'Epoch': 108, 'Overall_HIT@20': '0.0656', 'Overall_NDCG@20': '0.0279', 'Head_Item_HIT@20': '0.0935', 'Head_Item_NDCG@20': '0.0390', 'Tail_Item_HIT@20': '0.0149', 'Tail_Item_NDCG@20': '0.0078'}
+{'epoch': 109, 'rec_avg_loss': '0.0748'}
+{'Epoch': 109, 'Overall_HIT@5': '0.0266', 'Overall_NDCG@5': '0.0169', 'Head_Item_HIT@5': '0.0364', 'Head_Item_NDCG@5': '0.0229', 'Tail_Item_HIT@5': '0.0090', 'Tail_Item_NDCG@5': '0.0061'}
+{'Epoch': 109, 'Overall_HIT@10': '0.0435', 'Overall_NDCG@10': '0.0224', 'Head_Item_HIT@10': '0.0606', 'Head_Item_NDCG@10': '0.0307', 'Tail_Item_HIT@10': '0.0126', 'Tail_Item_NDCG@10': '0.0072'}
+{'Epoch': 109, 'Overall_HIT@20': '0.0669', 'Overall_NDCG@20': '0.0282', 'Head_Item_HIT@20': '0.0953', 'Head_Item_NDCG@20': '0.0394', 'Tail_Item_HIT@20': '0.0154', 'Tail_Item_NDCG@20': '0.0079'}
+{'epoch': 110, 'rec_avg_loss': '0.0723'}
+{'Epoch': 110, 'Overall_HIT@5': '0.0266', 'Overall_NDCG@5': '0.0164', 'Head_Item_HIT@5': '0.0364', 'Head_Item_NDCG@5': '0.0222', 'Tail_Item_HIT@5': '0.0089', 'Tail_Item_NDCG@5': '0.0059'}
+{'Epoch': 110, 'Overall_HIT@10': '0.0419', 'Overall_NDCG@10': '0.0214', 'Head_Item_HIT@10': '0.0586', 'Head_Item_NDCG@10': '0.0294', 'Tail_Item_HIT@10': '0.0118', 'Tail_Item_NDCG@10': '0.0068'}
+{'Epoch': 110, 'Overall_HIT@20': '0.0654', 'Overall_NDCG@20': '0.0273', 'Head_Item_HIT@20': '0.0931', 'Head_Item_NDCG@20': '0.0381', 'Tail_Item_HIT@20': '0.0153', 'Tail_Item_NDCG@20': '0.0077'}
+{'epoch': 111, 'rec_avg_loss': '0.0751'}
+{'Epoch': 111, 'Overall_HIT@5': '0.0264', 'Overall_NDCG@5': '0.0167', 'Head_Item_HIT@5': '0.0360', 'Head_Item_NDCG@5': '0.0226', 'Tail_Item_HIT@5': '0.0091', 'Tail_Item_NDCG@5': '0.0061'}
+{'Epoch': 111, 'Overall_HIT@10': '0.0448', 'Overall_NDCG@10': '0.0227', 'Head_Item_HIT@10': '0.0625', 'Head_Item_NDCG@10': '0.0312', 'Tail_Item_HIT@10': '0.0128', 'Tail_Item_NDCG@10': '0.0073'}
+{'Epoch': 111, 'Overall_HIT@20': '0.0672', 'Overall_NDCG@20': '0.0283', 'Head_Item_HIT@20': '0.0957', 'Head_Item_NDCG@20': '0.0396', 'Tail_Item_HIT@20': '0.0155', 'Tail_Item_NDCG@20': '0.0079'}
+{'epoch': 112, 'rec_avg_loss': '0.0747'}
+{'Epoch': 112, 'Overall_HIT@5': '0.0276', 'Overall_NDCG@5': '0.0172', 'Head_Item_HIT@5': '0.0374', 'Head_Item_NDCG@5': '0.0233', 'Tail_Item_HIT@5': '0.0099', 'Tail_Item_NDCG@5': '0.0063'}
+{'Epoch': 112, 'Overall_HIT@10': '0.0438', 'Overall_NDCG@10': '0.0224', 'Head_Item_HIT@10': '0.0610', 'Head_Item_NDCG@10': '0.0308', 'Tail_Item_HIT@10': '0.0126', 'Tail_Item_NDCG@10': '0.0072'}
+{'Epoch': 112, 'Overall_HIT@20': '0.0669', 'Overall_NDCG@20': '0.0282', 'Head_Item_HIT@20': '0.0952', 'Head_Item_NDCG@20': '0.0394', 'Tail_Item_HIT@20': '0.0155', 'Tail_Item_NDCG@20': '0.0079'}
+{'epoch': 113, 'rec_avg_loss': '0.0743'}
+{'Epoch': 113, 'Overall_HIT@5': '0.0267', 'Overall_NDCG@5': '0.0170', 'Head_Item_HIT@5': '0.0367', 'Head_Item_NDCG@5': '0.0233', 'Tail_Item_HIT@5': '0.0086', 'Tail_Item_NDCG@5': '0.0058'}
+{'Epoch': 113, 'Overall_HIT@10': '0.0439', 'Overall_NDCG@10': '0.0226', 'Head_Item_HIT@10': '0.0614', 'Head_Item_NDCG@10': '0.0311', 'Tail_Item_HIT@10': '0.0124', 'Tail_Item_NDCG@10': '0.0071'}
+{'Epoch': 113, 'Overall_HIT@20': '0.0660', 'Overall_NDCG@20': '0.0281', 'Head_Item_HIT@20': '0.0939', 'Head_Item_NDCG@20': '0.0393', 'Tail_Item_HIT@20': '0.0153', 'Tail_Item_NDCG@20': '0.0078'}
+{'epoch': 114, 'rec_avg_loss': '0.0737'}
+{'Epoch': 114, 'Overall_HIT@5': '0.0266', 'Overall_NDCG@5': '0.0170', 'Head_Item_HIT@5': '0.0364', 'Head_Item_NDCG@5': '0.0231', 'Tail_Item_HIT@5': '0.0087', 'Tail_Item_NDCG@5': '0.0058'}
+{'Epoch': 114, 'Overall_HIT@10': '0.0424', 'Overall_NDCG@10': '0.0221', 'Head_Item_HIT@10': '0.0591', 'Head_Item_NDCG@10': '0.0304', 'Tail_Item_HIT@10': '0.0121', 'Tail_Item_NDCG@10': '0.0070'}
+{'Epoch': 114, 'Overall_HIT@20': '0.0650', 'Overall_NDCG@20': '0.0278', 'Head_Item_HIT@20': '0.0923', 'Head_Item_NDCG@20': '0.0388', 'Tail_Item_HIT@20': '0.0155', 'Tail_Item_NDCG@20': '0.0078'}
+{'Epoch': 0, 'Overall_HIT@5': '0.0224', 'Overall_NDCG@5': '0.0143', 'Head_Item_HIT@5': '0.0324', 'Head_Item_NDCG@5': '0.0206', 'Tail_Item_HIT@5': '0.0060', 'Tail_Item_NDCG@5': '0.0039'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0351', 'Overall_NDCG@10': '0.0184', 'Head_Item_HIT@10': '0.0516', 'Head_Item_NDCG@10': '0.0268', 'Tail_Item_HIT@10': '0.0080', 'Tail_Item_NDCG@10': '0.0046'}
+{'Epoch': 0, 'Overall_HIT@20': '0.0525', 'Overall_NDCG@20': '0.0228', 'Head_Item_HIT@20': '0.0788', 'Head_Item_NDCG@20': '0.0336', 'Tail_Item_HIT@20': '0.0096', 'Tail_Item_NDCG@20': '0.0050'}
+
+@10 :
+Epoch: 0
+  Item_1-4_HIT@10: 0.0052, Item_1-4_NDCG@10: 0.0033
+  Item_5-9_HIT@10: 0.0145, Item_5-9_NDCG@10: 0.0078
+  Item_10-19_HIT@10: 0.0252, Item_10-19_NDCG@10: 0.0138
+  Item_20-49_HIT@10: 0.0319, Item_20-49_NDCG@10: 0.0176
+  Item_50+_HIT@10: 0.0971, Item_50+_NDCG@10: 0.0490
+
+@20 :
+Epoch: 0
+  Item_1-4_HIT@20: 0.0065, Item_1-4_NDCG@20: 0.0036
+  Item_5-9_HIT@20: 0.0172, Item_5-9_NDCG@20: 0.0085
+  Item_10-19_HIT@20: 0.0324, Item_10-19_NDCG@20: 0.0156
+  Item_20-49_HIT@20: 0.0446, Item_20-49_NDCG@20: 0.0207
+  Item_50+_HIT@20: 0.1572, Item_50+_NDCG@20: 0.0641
+
+LRURec-Food-1
+{'Epoch': 0, 'Overall_HIT@5': '0.0224', 'Overall_NDCG@5': '0.0143', 'Head_Item_HIT@5': '0.0324', 'Head_Item_NDCG@5': '0.0206', 'Tail_Item_HIT@5': '0.0060', 'Tail_Item_NDCG@5': '0.0039'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0351', 'Overall_NDCG@10': '0.0184', 'Head_Item_HIT@10': '0.0516', 'Head_Item_NDCG@10': '0.0268', 'Tail_Item_HIT@10': '0.0080', 'Tail_Item_NDCG@10': '0.0046'}
+{'Epoch': 0, 'Overall_HIT@20': '0.0525', 'Overall_NDCG@20': '0.0228', 'Head_Item_HIT@20': '0.0788', 'Head_Item_NDCG@20': '0.0336', 'Tail_Item_HIT@20': '0.0096', 'Tail_Item_NDCG@20': '0.0050'}
+
+@10 :
+Epoch: 0
+  Item_1-4_HIT@10: 0.0052, Item_1-4_NDCG@10: 0.0033
+  Item_5-9_HIT@10: 0.0145, Item_5-9_NDCG@10: 0.0078
+  Item_10-19_HIT@10: 0.0252, Item_10-19_NDCG@10: 0.0138
+  Item_20-49_HIT@10: 0.0319, Item_20-49_NDCG@10: 0.0176
+  Item_50+_HIT@10: 0.0971, Item_50+_NDCG@10: 0.0490
+
+@20 :
+Epoch: 0
+  Item_1-4_HIT@20: 0.0065, Item_1-4_NDCG@20: 0.0036
+  Item_5-9_HIT@20: 0.0172, Item_5-9_NDCG@20: 0.0085
+  Item_10-19_HIT@20: 0.0324, Item_10-19_NDCG@20: 0.0156
+  Item_20-49_HIT@20: 0.0446, Item_20-49_NDCG@20: 0.0207
+  Item_50+_HIT@20: 0.1572, Item_50+_NDCG@20: 0.0641
+
+Total running time: 746.60 seconds
+Average training time for epochs 0 to 100: 5.50 seconds/epoch

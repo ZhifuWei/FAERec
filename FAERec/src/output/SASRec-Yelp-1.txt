@@ -1,0 +1,182 @@
+data_dir                       :                            ../data/
+output_dir                     :                             output/
+data_name                      :                                Yelp
+do_eval                        :                                   0
+model_idx                      :                                   1
+gpu_id                         :                                   0
+no_cuda                        :                                   0
+model_name                     :                              SASRec
+hidden_size                    :                                 128
+num_hidden_layers              :                                   2
+num_attention_heads            :                                   2
+hidden_act                     :                                gelu
+attention_probs_dropout_prob   :                                 0.4
+hidden_dropout_prob            :                                 0.4
+initializer_range              :                                0.02
+max_seq_length                 :                                  50
+weight_decay                   :                                 0.0
+lr                             :                               0.001
+batch_size                     :                                 256
+epochs                         :                                 500
+patience                       :                                  10
+log_freq                       :                                   1
+seed                           :                                2024
+full_sort                      :                                   1
+head_ratio                     :                                 0.2
+change                         :                                  20
+power_tou                      :                                   1
+item_tou                       :                                0.05
+beta                           :                                 0.3
+cl_weight                      :                                 0.2
+gate_type                      :                           dimension
+w_min                          :                                 0.3
+w_max                          :                                   1
+warmup_epochs                  :                                   0
+period                         :                                  25
+star_test                      :                                  50
+cuda_condition                 :                                   1
+data_file                      :                    ../data/Yelp.txt
+user_size                      :                               15720
+item_size                      :                               11385
+log_file                       :            output/SASRec-Yelp-1.txt
+Namespace(attention_probs_dropout_prob=0.4, batch_size=256, beta=0.3, change=20, cuda_condition=True, data_dir='../data/', data_file='../data/Yelp.txt', data_name='Yelp', do_eval=False, epochs=500, full_sort=1, gate_type='dimension', gpu_id='0', head_ratio=0.2, hidden_act='gelu', hidden_dropout_prob=0.4, hidden_size=128, initializer_range=0.02, item_size=11385, item_tou=0.05, log_file='output/SASRec-Yelp-1.txt', log_freq=1, lr=0.001, max_seq_length=50, model_idx=1, model_name='SASRec', no_cuda=False, num_attention_heads=2, num_hidden_layers=2, output_dir='output/', patience=10, period=25, power_tou=1, seed=2024, star_test=50, user_size=15720, w_max=1, w_min=0.3, warmup_epochs=0, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.2874'}
+{'epoch': 1, 'rec_avg_loss': '0.9646'}
+{'epoch': 2, 'rec_avg_loss': '0.8964'}
+{'epoch': 3, 'rec_avg_loss': '0.8662'}
+{'epoch': 4, 'rec_avg_loss': '0.8600'}
+{'epoch': 5, 'rec_avg_loss': '0.8585'}
+{'epoch': 6, 'rec_avg_loss': '0.8569'}
+{'epoch': 7, 'rec_avg_loss': '0.8583'}
+{'epoch': 8, 'rec_avg_loss': '0.8623'}
+{'epoch': 9, 'rec_avg_loss': '0.8581'}
+{'epoch': 10, 'rec_avg_loss': '0.8551'}
+{'epoch': 11, 'rec_avg_loss': '0.8563'}
+{'epoch': 12, 'rec_avg_loss': '0.8463'}
+{'epoch': 13, 'rec_avg_loss': '0.8393'}
+{'epoch': 14, 'rec_avg_loss': '0.8258'}
+{'epoch': 15, 'rec_avg_loss': '0.8129'}
+{'epoch': 16, 'rec_avg_loss': '0.7910'}
+{'epoch': 17, 'rec_avg_loss': '0.7707'}
+{'epoch': 18, 'rec_avg_loss': '0.7492'}
+{'epoch': 19, 'rec_avg_loss': '0.7206'}
+{'epoch': 20, 'rec_avg_loss': '0.6876'}
+{'epoch': 21, 'rec_avg_loss': '0.6571'}
+{'epoch': 22, 'rec_avg_loss': '0.6244'}
+{'epoch': 23, 'rec_avg_loss': '0.5852'}
+{'epoch': 24, 'rec_avg_loss': '0.5511'}
+{'epoch': 25, 'rec_avg_loss': '0.5184'}
+{'epoch': 26, 'rec_avg_loss': '0.5131'}
+{'epoch': 27, 'rec_avg_loss': '0.5379'}
+{'epoch': 28, 'rec_avg_loss': '0.5781'}
+{'epoch': 29, 'rec_avg_loss': '0.6163'}
+{'epoch': 30, 'rec_avg_loss': '0.6520'}
+{'epoch': 31, 'rec_avg_loss': '0.6744'}
+{'epoch': 32, 'rec_avg_loss': '0.6945'}
+{'epoch': 33, 'rec_avg_loss': '0.7145'}
+{'epoch': 34, 'rec_avg_loss': '0.7268'}
+{'epoch': 35, 'rec_avg_loss': '0.7378'}
+{'epoch': 36, 'rec_avg_loss': '0.7373'}
+{'epoch': 37, 'rec_avg_loss': '0.7355'}
+{'epoch': 38, 'rec_avg_loss': '0.7325'}
+{'epoch': 39, 'rec_avg_loss': '0.7190'}
+{'epoch': 40, 'rec_avg_loss': '0.7052'}
+{'epoch': 41, 'rec_avg_loss': '0.6867'}
+{'epoch': 42, 'rec_avg_loss': '0.6717'}
+{'epoch': 43, 'rec_avg_loss': '0.6425'}
+{'epoch': 44, 'rec_avg_loss': '0.6130'}
+{'epoch': 45, 'rec_avg_loss': '0.5853'}
+{'epoch': 46, 'rec_avg_loss': '0.5509'}
+{'epoch': 47, 'rec_avg_loss': '0.5247'}
+{'epoch': 48, 'rec_avg_loss': '0.4921'}
+{'epoch': 49, 'rec_avg_loss': '0.4625'}
+{'epoch': 50, 'rec_avg_loss': '0.4423'}
+{'epoch': 51, 'rec_avg_loss': '0.4392'}
+{'Epoch': 51, 'Overall_HIT@5': '0.0256', 'Overall_NDCG@5': '0.0156', 'Head_Item_HIT@5': '0.0331', 'Head_Item_NDCG@5': '0.0201', 'Tail_Item_HIT@5': '0.0048', 'Tail_Item_NDCG@5': '0.0030'}
+{'Epoch': 51, 'Overall_HIT@10': '0.0420', 'Overall_NDCG@10': '0.0208', 'Head_Item_HIT@10': '0.0546', 'Head_Item_NDCG@10': '0.0270', 'Tail_Item_HIT@10': '0.0072', 'Tail_Item_NDCG@10': '0.0037'}
+{'Epoch': 51, 'Overall_HIT@20': '0.0705', 'Overall_NDCG@20': '0.0280', 'Head_Item_HIT@20': '0.0907', 'Head_Item_NDCG@20': '0.0361', 'Tail_Item_HIT@20': '0.0144', 'Tail_Item_NDCG@20': '0.0055'}
+{'epoch': 52, 'rec_avg_loss': '0.4553'}
+{'Epoch': 52, 'Overall_HIT@5': '0.0261', 'Overall_NDCG@5': '0.0163', 'Head_Item_HIT@5': '0.0338', 'Head_Item_NDCG@5': '0.0212', 'Tail_Item_HIT@5': '0.0046', 'Tail_Item_NDCG@5': '0.0030'}
+{'Epoch': 52, 'Overall_HIT@10': '0.0450', 'Overall_NDCG@10': '0.0223', 'Head_Item_HIT@10': '0.0585', 'Head_Item_NDCG@10': '0.0290', 'Tail_Item_HIT@10': '0.0074', 'Tail_Item_NDCG@10': '0.0039'}
+{'Epoch': 52, 'Overall_HIT@20': '0.0753', 'Overall_NDCG@20': '0.0299', 'Head_Item_HIT@20': '0.0972', 'Head_Item_NDCG@20': '0.0387', 'Tail_Item_HIT@20': '0.0146', 'Tail_Item_NDCG@20': '0.0056'}
+{'epoch': 53, 'rec_avg_loss': '0.4942'}
+{'Epoch': 53, 'Overall_HIT@5': '0.0242', 'Overall_NDCG@5': '0.0151', 'Head_Item_HIT@5': '0.0313', 'Head_Item_NDCG@5': '0.0194', 'Tail_Item_HIT@5': '0.0046', 'Tail_Item_NDCG@5': '0.0030'}
+{'Epoch': 53, 'Overall_HIT@10': '0.0411', 'Overall_NDCG@10': '0.0205', 'Head_Item_HIT@10': '0.0533', 'Head_Item_NDCG@10': '0.0265', 'Tail_Item_HIT@10': '0.0072', 'Tail_Item_NDCG@10': '0.0039'}
+{'Epoch': 53, 'Overall_HIT@20': '0.0716', 'Overall_NDCG@20': '0.0281', 'Head_Item_HIT@20': '0.0928', 'Head_Item_NDCG@20': '0.0364', 'Tail_Item_HIT@20': '0.0127', 'Tail_Item_NDCG@20': '0.0052'}
+{'epoch': 54, 'rec_avg_loss': '0.5330'}
+{'Epoch': 54, 'Overall_HIT@5': '0.0256', 'Overall_NDCG@5': '0.0160', 'Head_Item_HIT@5': '0.0333', 'Head_Item_NDCG@5': '0.0206', 'Tail_Item_HIT@5': '0.0043', 'Tail_Item_NDCG@5': '0.0031'}
+{'Epoch': 54, 'Overall_HIT@10': '0.0436', 'Overall_NDCG@10': '0.0218', 'Head_Item_HIT@10': '0.0568', 'Head_Item_NDCG@10': '0.0282', 'Tail_Item_HIT@10': '0.0070', 'Tail_Item_NDCG@10': '0.0040'}
+{'Epoch': 54, 'Overall_HIT@20': '0.0731', 'Overall_NDCG@20': '0.0291', 'Head_Item_HIT@20': '0.0947', 'Head_Item_NDCG@20': '0.0377', 'Tail_Item_HIT@20': '0.0132', 'Tail_Item_NDCG@20': '0.0055'}
+{'epoch': 55, 'rec_avg_loss': '0.5765'}
+{'Epoch': 55, 'Overall_HIT@5': '0.0256', 'Overall_NDCG@5': '0.0158', 'Head_Item_HIT@5': '0.0333', 'Head_Item_NDCG@5': '0.0205', 'Tail_Item_HIT@5': '0.0041', 'Tail_Item_NDCG@5': '0.0028'}
+{'Epoch': 55, 'Overall_HIT@10': '0.0427', 'Overall_NDCG@10': '0.0213', 'Head_Item_HIT@10': '0.0556', 'Head_Item_NDCG@10': '0.0277', 'Tail_Item_HIT@10': '0.0070', 'Tail_Item_NDCG@10': '0.0037'}
+{'Epoch': 55, 'Overall_HIT@20': '0.0718', 'Overall_NDCG@20': '0.0285', 'Head_Item_HIT@20': '0.0924', 'Head_Item_NDCG@20': '0.0368', 'Tail_Item_HIT@20': '0.0149', 'Tail_Item_NDCG@20': '0.0056'}
+{'epoch': 56, 'rec_avg_loss': '0.6109'}
+{'Epoch': 56, 'Overall_HIT@5': '0.0237', 'Overall_NDCG@5': '0.0148', 'Head_Item_HIT@5': '0.0307', 'Head_Item_NDCG@5': '0.0191', 'Tail_Item_HIT@5': '0.0043', 'Tail_Item_NDCG@5': '0.0029'}
+{'Epoch': 56, 'Overall_HIT@10': '0.0422', 'Overall_NDCG@10': '0.0207', 'Head_Item_HIT@10': '0.0545', 'Head_Item_NDCG@10': '0.0267', 'Tail_Item_HIT@10': '0.0079', 'Tail_Item_NDCG@10': '0.0040'}
+{'Epoch': 56, 'Overall_HIT@20': '0.0705', 'Overall_NDCG@20': '0.0278', 'Head_Item_HIT@20': '0.0906', 'Head_Item_NDCG@20': '0.0358', 'Tail_Item_HIT@20': '0.0149', 'Tail_Item_NDCG@20': '0.0058'}
+{'epoch': 57, 'rec_avg_loss': '0.6360'}
+{'Epoch': 57, 'Overall_HIT@5': '0.0238', 'Overall_NDCG@5': '0.0147', 'Head_Item_HIT@5': '0.0306', 'Head_Item_NDCG@5': '0.0189', 'Tail_Item_HIT@5': '0.0048', 'Tail_Item_NDCG@5': '0.0030'}
+{'Epoch': 57, 'Overall_HIT@10': '0.0401', 'Overall_NDCG@10': '0.0199', 'Head_Item_HIT@10': '0.0512', 'Head_Item_NDCG@10': '0.0255', 'Tail_Item_HIT@10': '0.0096', 'Tail_Item_NDCG@10': '0.0046'}
+{'Epoch': 57, 'Overall_HIT@20': '0.0712', 'Overall_NDCG@20': '0.0278', 'Head_Item_HIT@20': '0.0906', 'Head_Item_NDCG@20': '0.0354', 'Tail_Item_HIT@20': '0.0178', 'Tail_Item_NDCG@20': '0.0066'}
+{'epoch': 58, 'rec_avg_loss': '0.6542'}
+{'Epoch': 58, 'Overall_HIT@5': '0.0235', 'Overall_NDCG@5': '0.0145', 'Head_Item_HIT@5': '0.0299', 'Head_Item_NDCG@5': '0.0184', 'Tail_Item_HIT@5': '0.0060', 'Tail_Item_NDCG@5': '0.0036'}
+{'Epoch': 58, 'Overall_HIT@10': '0.0413', 'Overall_NDCG@10': '0.0202', 'Head_Item_HIT@10': '0.0529', 'Head_Item_NDCG@10': '0.0259', 'Tail_Item_HIT@10': '0.0091', 'Tail_Item_NDCG@10': '0.0046'}
+{'Epoch': 58, 'Overall_HIT@20': '0.0691', 'Overall_NDCG@20': '0.0272', 'Head_Item_HIT@20': '0.0880', 'Head_Item_NDCG@20': '0.0347', 'Tail_Item_HIT@20': '0.0166', 'Tail_Item_NDCG@20': '0.0064'}
+{'epoch': 59, 'rec_avg_loss': '0.6716'}
+{'Epoch': 59, 'Overall_HIT@5': '0.0226', 'Overall_NDCG@5': '0.0139', 'Head_Item_HIT@5': '0.0287', 'Head_Item_NDCG@5': '0.0177', 'Tail_Item_HIT@5': '0.0055', 'Tail_Item_NDCG@5': '0.0035'}
+{'Epoch': 59, 'Overall_HIT@10': '0.0418', 'Overall_NDCG@10': '0.0201', 'Head_Item_HIT@10': '0.0533', 'Head_Item_NDCG@10': '0.0256', 'Tail_Item_HIT@10': '0.0098', 'Tail_Item_NDCG@10': '0.0048'}
+{'Epoch': 59, 'Overall_HIT@20': '0.0701', 'Overall_NDCG@20': '0.0271', 'Head_Item_HIT@20': '0.0889', 'Head_Item_NDCG@20': '0.0345', 'Tail_Item_HIT@20': '0.0180', 'Tail_Item_NDCG@20': '0.0069'}
+{'epoch': 60, 'rec_avg_loss': '0.6822'}
+{'Epoch': 60, 'Overall_HIT@5': '0.0234', 'Overall_NDCG@5': '0.0141', 'Head_Item_HIT@5': '0.0294', 'Head_Item_NDCG@5': '0.0179', 'Tail_Item_HIT@5': '0.0067', 'Tail_Item_NDCG@5': '0.0037'}
+{'Epoch': 60, 'Overall_HIT@10': '0.0405', 'Overall_NDCG@10': '0.0196', 'Head_Item_HIT@10': '0.0514', 'Head_Item_NDCG@10': '0.0250', 'Tail_Item_HIT@10': '0.0101', 'Tail_Item_NDCG@10': '0.0047'}
+{'Epoch': 60, 'Overall_HIT@20': '0.0676', 'Overall_NDCG@20': '0.0264', 'Head_Item_HIT@20': '0.0853', 'Head_Item_NDCG@20': '0.0335', 'Tail_Item_HIT@20': '0.0185', 'Tail_Item_NDCG@20': '0.0069'}
+{'epoch': 61, 'rec_avg_loss': '0.6826'}
+{'Epoch': 61, 'Overall_HIT@5': '0.0230', 'Overall_NDCG@5': '0.0143', 'Head_Item_HIT@5': '0.0287', 'Head_Item_NDCG@5': '0.0180', 'Tail_Item_HIT@5': '0.0070', 'Tail_Item_NDCG@5': '0.0041'}
+{'Epoch': 61, 'Overall_HIT@10': '0.0406', 'Overall_NDCG@10': '0.0200', 'Head_Item_HIT@10': '0.0511', 'Head_Item_NDCG@10': '0.0252', 'Tail_Item_HIT@10': '0.0115', 'Tail_Item_NDCG@10': '0.0055'}
+{'Epoch': 61, 'Overall_HIT@20': '0.0694', 'Overall_NDCG@20': '0.0272', 'Head_Item_HIT@20': '0.0875', 'Head_Item_NDCG@20': '0.0343', 'Tail_Item_HIT@20': '0.0192', 'Tail_Item_NDCG@20': '0.0074'}
+{'epoch': 62, 'rec_avg_loss': '0.6857'}
+{'Epoch': 62, 'Overall_HIT@5': '0.0238', 'Overall_NDCG@5': '0.0146', 'Head_Item_HIT@5': '0.0304', 'Head_Item_NDCG@5': '0.0187', 'Tail_Item_HIT@5': '0.0055', 'Tail_Item_NDCG@5': '0.0033'}
+{'Epoch': 62, 'Overall_HIT@10': '0.0418', 'Overall_NDCG@10': '0.0203', 'Head_Item_HIT@10': '0.0528', 'Head_Item_NDCG@10': '0.0258', 'Tail_Item_HIT@10': '0.0113', 'Tail_Item_NDCG@10': '0.0051'}
+{'Epoch': 62, 'Overall_HIT@20': '0.0698', 'Overall_NDCG@20': '0.0274', 'Head_Item_HIT@20': '0.0887', 'Head_Item_NDCG@20': '0.0348', 'Tail_Item_HIT@20': '0.0178', 'Tail_Item_NDCG@20': '0.0067'}
+{'Epoch': 0, 'Overall_HIT@5': '0.0264', 'Overall_NDCG@5': '0.0162', 'Head_Item_HIT@5': '0.0349', 'Head_Item_NDCG@5': '0.0214', 'Tail_Item_HIT@5': '0.0055', 'Tail_Item_NDCG@5': '0.0035'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0461', 'Overall_NDCG@10': '0.0225', 'Head_Item_HIT@10': '0.0610', 'Head_Item_NDCG@10': '0.0298', 'Tail_Item_HIT@10': '0.0090', 'Tail_Item_NDCG@10': '0.0047'}
+{'Epoch': 0, 'Overall_HIT@20': '0.0752', 'Overall_NDCG@20': '0.0299', 'Head_Item_HIT@20': '0.0990', 'Head_Item_NDCG@20': '0.0393', 'Tail_Item_HIT@20': '0.0163', 'Tail_Item_NDCG@20': '0.0065'}
+
+@10 :
+Epoch: 0
+  Item_1-4_HIT@10: 0.0037, Item_1-4_NDCG@10: 0.0018
+  Item_5-9_HIT@10: 0.0091, Item_5-9_NDCG@10: 0.0050
+  Item_10-19_HIT@10: 0.0146, Item_10-19_NDCG@10: 0.0074
+  Item_20-49_HIT@10: 0.0282, Item_20-49_NDCG@10: 0.0121
+  Item_50+_HIT@10: 0.0744, Item_50+_NDCG@10: 0.0369
+
+@20 :
+Epoch: 0
+  Item_1-4_HIT@20: 0.0067, Item_1-4_NDCG@20: 0.0026
+  Item_5-9_HIT@20: 0.0134, Item_5-9_NDCG@20: 0.0060
+  Item_10-19_HIT@20: 0.0293, Item_10-19_NDCG@20: 0.0111
+  Item_20-49_HIT@20: 0.0498, Item_20-49_NDCG@20: 0.0176
+  Item_50+_HIT@20: 0.1190, Item_50+_NDCG@20: 0.0482
+SASRec-Yelp-1
+{'Epoch': 0, 'Overall_HIT@5': '0.0264', 'Overall_NDCG@5': '0.0162', 'Head_Item_HIT@5': '0.0349', 'Head_Item_NDCG@5': '0.0214', 'Tail_Item_HIT@5': '0.0055', 'Tail_Item_NDCG@5': '0.0035'}
+{'Epoch': 0, 'Overall_HIT@10': '0.0461', 'Overall_NDCG@10': '0.0225', 'Head_Item_HIT@10': '0.0610', 'Head_Item_NDCG@10': '0.0298', 'Tail_Item_HIT@10': '0.0090', 'Tail_Item_NDCG@10': '0.0047'}
+{'Epoch': 0, 'Overall_HIT@20': '0.0752', 'Overall_NDCG@20': '0.0299', 'Head_Item_HIT@20': '0.0990', 'Head_Item_NDCG@20': '0.0393', 'Tail_Item_HIT@20': '0.0163', 'Tail_Item_NDCG@20': '0.0065'}
+
+@10 :
+Epoch: 0
+  Item_1-4_HIT@10: 0.0037, Item_1-4_NDCG@10: 0.0018
+  Item_5-9_HIT@10: 0.0091, Item_5-9_NDCG@10: 0.0050
+  Item_10-19_HIT@10: 0.0146, Item_10-19_NDCG@10: 0.0074
+  Item_20-49_HIT@10: 0.0282, Item_20-49_NDCG@10: 0.0121
+  Item_50+_HIT@10: 0.0744, Item_50+_NDCG@10: 0.0369
+
+@20 :
+Epoch: 0
+  Item_1-4_HIT@20: 0.0067, Item_1-4_NDCG@20: 0.0026
+  Item_5-9_HIT@20: 0.0134, Item_5-9_NDCG@20: 0.0060
+  Item_10-19_HIT@20: 0.0293, Item_10-19_NDCG@20: 0.0111
+  Item_20-49_HIT@20: 0.0498, Item_20-49_NDCG@20: 0.0176
+  Item_50+_HIT@20: 0.1190, Item_50+_NDCG@20: 0.0482
+Total running time: 233.71 seconds
+Average training time for epochs 0 to 50: 2.74 seconds/epoch
