@@ -17,7 +17,7 @@ To save time, we have placed the pre-trained model weights and logs in ```SASRec
 
 The term "Food" in the files refers to "Grocery and Gourmet Food".
 
-You can specify the corresponding backbone model by setting "--model_name"; "SASRec" is the default model.
+You can specify the corresponding backbone model by setting "--model_name" and "SASRec" is the default model.
 
 Run FAERec in the ```FAERec/src``` directory:
 ```
