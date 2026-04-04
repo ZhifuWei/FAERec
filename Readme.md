@@ -30,3 +30,6 @@ You can also run the backbone model (SASRec,FMLP-Rec,LRURec) in the ```Backbone/
 ```
 python main.py  --gpu_id=0 --model_idx=1 --data_name=[DATA NAME]
 ```
+
+# Thanks
+The code refers to the repo SASRec and LLM-ESR.
