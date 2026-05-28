@@ -7,6 +7,7 @@ Official source code for SIGIR 2026 paper: Fusion and Alignment Enhancement with
 2. Run ```data_process.py```.
 3. Run ```get_item_embedding.py``` in the ```Preprocessing/data/Beauty/handled``` to obtain LLM item embeddings.
 4. Processed LLM embeddings should be placed in the ```FAERec/src/llm_emb/Beauty``` directory.
+5. You can obtain the processed LLM embeddings here: https://drive.google.com/drive/folders/1XQPmUmcqeQtAZlm57DvPJUdnETYm5N_9?usp=sharing.
 
 # Run the code
 ```Base``` and ```FAERec``` represent the backbone model and our proposed method, respectively.
